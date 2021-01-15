@@ -2,40 +2,63 @@
     opacity: 0;
 }
   
-  .image-name {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    width: 100px;
-    position: absolute;
-    top: 15px;
-    left: 15px;
-    opacity: 0;
-    font-weight: 700;
-    font-size: 14px;
-    color: white;
-  }
+.image-name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100px;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  opacity: 0;
+  font-weight: 700;
+  font-size: 14px;
+  color: white;
+}
 
-  .image-owner {
-    position: absolute;
-    bottom: 15px;
-    left: 15px;
-    opacity: 0;
-    font-weight: 700;
-    font-size: 14px;
-    color: white;
-  }
+.image-owner {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  opacity: 0;
+  font-weight: 700;
+  font-size: 14px;
+  color: white;
+}
 
-  .details-wrapper {
-    padding: 10px;
-    background-color: rgba(0, 0, 0, 0.658);
-    color: black;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    width: 25%;
-  }
+.details-wrapper {
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.658);
+  color: black;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 25%;
+}
 
-  .details-wrapper:hover .hide {
-      opacity: 1;
-  }
+.details-wrapper:hover .hide {
+    opacity: 1;
+}
+
+.page {
+  padding: 20px;
+}
+
+.float{
+  position:fixed;
+  width:60px;
+  height:60px;
+  top:40px;
+  right:40px;
+  background-color:rgb(75, 189, 90);
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 1000;
+}
+
+.my-float {
+  font-size: 39px;
+  font-weight: 700;
+}

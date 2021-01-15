@@ -21,12 +21,15 @@ function GroupsPage() {
       searchGroups(debouncedSearchTerm)
         // .then(r => r.json())
         .then((r) => r.data.groups.group)
-        .then((results) => {
-          // setIsSearching(false);
-          setSuggestion(results);
-        }, err => {
-          console.log(err);
-        })
+        .then(
+          (results) => {
+            // setIsSearching(false);
+            setSuggestion(results);
+          },
+          (err) => {
+            console.log(err);
+          }
+        );
     } else {
       setSuggestion([]);
     }

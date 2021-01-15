@@ -20,6 +20,6 @@ export const getImagesInfo = (keyword, page = 1) =>
   );
 
 export const getGroups = (keyword, page = 1) =>
-    axios.get(
-      `${APIURL}/?method=flickr.groups.search&page=${page}&api_key=${process.env.REACT_APP_APIKEY}&text=${keyword}&format=json&nojsoncallback=1&${groupExtras}`
-    );
+  axios.get(
+    `${APIURL}/?method=flickr.groups.search&page=${page}&api_key=${process.env.REACT_APP_APIKEY}&text=${keyword}&format=json&nojsoncallback=1&${groupExtras}`
+  );

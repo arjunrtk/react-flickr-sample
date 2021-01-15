@@ -1,5 +1,5 @@
 export const masonryOptions = {
-    fitWidth: true,
-    columnWidth: 300,
-    gutter: 40
+  fitWidth: true,
+  columnWidth: 300,
+  gutter: 40,
 };

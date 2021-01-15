@@ -67,10 +67,10 @@ function GalleryPage() {
               <div key={i} className="details-wrapper">
                 <span className="image-name hide">{img.title}</span>
                 <LazyLoad height={200}>
-                  <img src={img.url_c}  alt="img"/>
+                  <img src={img.url_c} alt="img" />
                 </LazyLoad>
-                  <span className="image-owner hide">By {img.ownername}</span>
-                  {/* <div className="image-desc hide">{img.description._content}</div> */}
+                <span className="image-owner hide">By {img.ownername}</span>
+                {/* <div className="image-desc hide">{img.description._content}</div> */}
               </div>
             );
           })}

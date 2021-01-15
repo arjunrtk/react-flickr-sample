@@ -10,7 +10,6 @@ function App() {
   return (
     <div className="App">
       <Router history={history}>
-        
         <Route path="/" exact component={GroupsPage} />
         <Route path="/groups" exact component={GroupsPage} />
         <Route path="/gallery/:id" exact component={GalleryPage} />
